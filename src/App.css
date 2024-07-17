@@ -36,3 +36,663 @@
     transform: rotate(360deg);
   }
 }
+/* lamedaqui.css */
+
+
+body {
+  /*background-image: url('src/Assets/Developing Friendship Skills_ Help for Kids and Teens on the Autism Spectrum (1).jpeg'); /* Change to your background image path */
+  background-size: cover; /* Ensure the background covers the whole screen */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent the background from repeating */
+  background-attachment: fixed; /* Make the background image fixed when scrolling */
+  margin: 0; 
+  padding: 0; 
+  font-family: Arial, sans-serif; 
+  color: #222222; 
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Styling for header */
+header {
+  background: rgba(33, 32, 32, 0.231);  /* Semi-transparent background for readability */
+  
+  padding: 20px 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+h1 {
+  font-family: 'Playfair Display', serif; 
+  font-size: 40px;
+  color:rgb(0, 0, 0); 
+}
+
+nav a {
+  font-family: 'Montserrat', sans-serif; 
+  color: #060404; 
+  text-decoration: none;
+}
+/*styling for the navigation links*/
+nav a:hover {
+  color: #1c0769; 
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+header nav ul li {
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #040101;
+  font-weight: bold;
+}
+.logo img {
+  width: 85px; 
+  height: 85px; 
+  vertical-align: left;
+  margin-right: 0px;
+}
+
+/* Styling for hero section */
+.hero {
+  padding: 60px 0;
+  text-align: center;
+  color: white;
+  background: rgba(0, 0, 0, 0.703); 
+}
+
+.hero-text {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.hero-text h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.hero button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 1em;
+  border: none;
+  background-color: #007BFF;
+  color: white;
+  cursor: pointer;
+}
+
+.hero button:hover {
+  background-color: #0056b3;
+}
+
+/* Styling for sections */
+.section {
+  padding: 40px 0;
+  background: rgba(255, 255, 255, 0.8); 
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.section p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Styling for team section */
+.team {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.team-member {
+  text-align: center;
+  margin: 20px;
+}
+
+.team-member img {
+  width: 200px; 
+  height: 200px; 
+  object-fit: cover; 
+  border-radius: 50%; 
+  margin-bottom: 10px;
+}
+
+/* Footer.css */
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #333333ce;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content img {
+  margin-bottom: 10px;
+}
+
+.footer-content p {
+  margin: 10px 0;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.social-icons a {
+  color: white;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #1da1f2; /* Twitter color */
+}
+
+/*styling for Testimonials*/
+.testimonials {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.testimonial {
+  margin: 20px;
+  width: 300px;
+  background-color: #1310107f;
+  padding: 20px;
+  border: 1px solid #dddddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.testimonial p {
+  font-size: 16px;
+  color: #080505;
+  margin-bottom: 10px;
+}
+
+.testimonial p:last-child {
+  font-size: 14px;
+  color: #0b0a0a;
+}
+/*Resource page styling*/
+/* Resource categories */
+.resource-categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background: rgba(0, 0, 0, 0.5); 
+}
+
+
+.resource-categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-size: cover; 
+  background-position: center; 
+  padding: 40px;
+}
+
+.resource-category {
+  background: #ffffff9a;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 30px;
+  flex: 1;
+  max-width: 30%;
+  text-align: left;
+  transition: transform 0.3s ease;
+}
+
+.resource-category:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.resource-category h3 {
+  color: #0c0b0bd4; 
+}
+
+.resource-category p {
+  margin-bottom: 10px;
+  color: #121111; 
+}
+
+.resource-category ul {
+  list-style: upper-roman;
+  padding: 0;
+}
+
+.resource-category ul li {
+  margin-bottom: 10px;
+}
+
+.resource-category ul li a {
+  text-decoration: none;
+  color: blueviolet;
+  transition: color 0.3s ease;
+}
+
+.resource-category ul li a:hover {
+  color: blue;
+}
+
+.resource-section {
+  background: rgba(0, 0, 0, 0.5);
+}
+/*styling for the membership page*/
+/* Membership section specific styles */
+.membership-section {
+  background: rgba(12, 12, 12, 0.505); 
+  padding: 40px 0;
+}
+
+.membership-section h2 {
+  color: #090302; 
+}
+
+/* Membership tiers */
+.membership-tiers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.membership-tier {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #030101;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.594);
+  margin: 20px;
+  padding: 20px;
+  flex: 1;
+  max-width: 45%;
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: #fff;
+}
+
+.membership-tier:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.membership-tier h3 {
+  color: black;
+}
+
+.membership-tier p {
+  margin-bottom: 10px;
+  color: #050101f7;
+}
+
+.membership-tier ul {
+  list-style: none;
+  padding: 0;
+}
+
+.membership-tier ul li {
+  margin-bottom: 10px;
+  color: black;
+}
+
+.membership-tier ul li::before {
+  content: "✔";
+  color: #090c0b96;
+  margin-right: 10px;
+}
+
+
+/* Service pricing styles */
+.service-pricing {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.service {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #080202;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.324);
+  margin: 20px;
+  padding: 20px;
+  flex: 1;
+  max-width: 30%;
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: #fff;
+}
+
+.service:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.service h3 {
+  color: #030303;
+}
+
+.service p {
+  margin-bottom: 10px;
+  color: rgb(10, 2, 2);
+}
+/*styling for the support group page*/
+.group-card {
+  background-color: #f7f7f700; 
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.847); 
+  transition: background-color 0.3s ease; 
+}
+
+.group-card:hover {
+  background-color: #edebeb05; 
+}
+
+.group-card h4 {
+  margin-top: 0;
+  font-weight: bold;
+  color: black; 
+}
+
+.group-card p {
+  margin-bottom: 10px;
+  color: #666; 
+}
+
+.group-card.group-meta {
+  font-size: 0.9em;
+  color: #999; 
+}
+
+.group-card.group-meta span {
+  margin-right: 10px;
+}
+
+.group-card.group-button {
+  background-color: #121412; 
+  color: #fff; 
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.group-card.group-button:hover {
+  background-color: #0a110b; 
+}
+/*styling for the counselling page*/
+.counsellor-card {
+  background-color: #f7f7f7;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.774);
+  transition: background-color 0.3s ease;
+}
+
+.counsellor-card:hover {
+  background-color: #edebeb;
+}
+
+.counsellor-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.counsellor-card h4 {
+  margin-top: 0;
+  font-weight: bold;
+  color: #333;
+}
+
+.counsellor-card p {
+  margin-bottom: 10px;
+  color: #666;
+}
+.book-button {
+  background-color: #2a32a1;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.book-button:hover {
+  background-color: #3e8e41;
+}
+/*contact page styling*/
+.contact-page {
+ 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 60px 20px;
+  color: #fff;
+}
+
+.contact-page .section {
+  background: rgba(0, 0, 0, 0.607); 
+  padding: 60px;
+  border-radius: 10px;
+}
+
+.contact-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.contact-card {
+  background-color: #a9a6a6e0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 45%;
+}
+
+.contact-card h3 {
+  color: black; 
+}
+
+.contact-card p {
+  color:black; 
+}
+
+.contact-form {
+  background-color: #d7d6d6d0; 
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form label {
+  color:black; 
+}
+
+.contact-form input, .contact-form textarea {
+  background-color: #848181;
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+  width: 100%;
+}
+
+.contact-form input[type="submit"] {
+  background-color: #337ab7; 
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.contact-form input[type="submit"]:hover {
+  background-color: #23527c; 
+}
+  
+/* SignupForm.css */
+.signup-form-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.signup-form {
+  background: #fff;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 400px;
+}
+
+.signup-form h2 {
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.signup-form label {
+  display: block;
+  margin-bottom: 8px;
+  color: #555;
+}
+
+.signup-form input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.signup-form .form-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.signup-form button {
+  background: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  
+}
+
+.signup-form button[type="button"] {
+  background: #6c757d;
+}
+
+.signup-form button:hover {
+  background: #0056b3;
+}
+
+.signup-form button[type="button"]:hover {
+  background: #5a6268;
+}
+
+.learn-more-page {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.learn-more-page h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.learn-more-content {
+  display: flex;
+  align-items: center;
+}
+
+.learn-more-image {
+  width: 300px; /* Adjust the size as needed */
+  height: 300px; /* Adjust the size as needed */
+  border-radius: 50%;
+  margin-right: 20px;
+  object-fit: cover;
+}
+
+.learn-more-text {
+  flex: 1;
+}
+
+.learn-more-text p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.success-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+}
